@@ -1,0 +1,108 @@
+.signin {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.signin-form {
+  margin-top: auto;
+  min-width: 25%;
+  background-color: #374EBB;
+  border-radius: 2.5rem;
+  padding: 2rem;
+  color: white;
+  font-weight: 800;
+}
+
+legend {
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+
+.signin-email {
+  padding: 1rem;
+}
+
+.signin-email-label {
+  display: block;
+  text-align: left;
+  font-size: .75rem;
+  margin-bottom: .25rem;
+}
+
+.signin-email-input {
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.signin-password {
+  padding: 1rem;
+}
+
+.signin-password-label {
+  display: block;
+  text-align: left;
+  font-size: .75rem;
+  margin-bottom: .25rem;
+}
+
+.signin-password-input {
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.signin-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.signin-buttons-signin {
+  font-size: .75rem;
+  border: none;
+  padding: .5rem;
+  border-radius: 25px;
+  width: 5rem;
+  color: white;
+  background-color: #98A8F0;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+
+.signin-buttons-signin:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.signin-buttons-signin:active {
+  transform: scale(1);
+}
+
+.signin-buttons-register {
+  font-size: .75rem;
+  border: none;
+  padding: .5rem;
+  border-radius: 25px;
+  width: 5rem;
+  color: white;
+  background-color: #98A8F0;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+
+.signin-buttons-register:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.signin-buttons-register:active {
+  transform: scale(1);
+}

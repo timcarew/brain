@@ -1,0 +1,58 @@
+.imagelinkform {
+  margin: 2rem auto;
+  width: 50%;
+  padding: 1rem;
+  background-color: #374EBB;
+  border-radius: 2.5rem;
+  filter: drop-shadow(.5rem .5rem 10px rgba(0,0,0,0.4));
+}
+
+.prompt {
+  padding: 1rem 0 2rem 0;
+  color: white;
+  font-weight: 900;
+}
+
+.inputform {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input {
+  border: none;
+  width: 50%;
+  min-width: 5rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 2.5rem;
+  transition: all 0.2s ease;
+  filter: drop-shadow(0px 1px 2px rgba(34,102,153, .4));
+}
+
+.input:focus {
+  filter: drop-shadow(0px 1px 3px #269);
+}
+
+.button {
+  border: none;
+  width: 30%;
+  min-width: 5rem;
+  height: 2rem;
+  margin-left: .2rem;
+  border-radius: 2.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  background-color: #98A8F0;
+  transition: all .1s ease;
+}
+
+.button:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(1);
+}

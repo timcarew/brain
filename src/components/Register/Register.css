@@ -1,0 +1,108 @@
+.register {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.register-form {
+  margin-top: auto;
+  min-width: 25%;
+  background-color: #374EBB;
+  border-radius: 2.5rem;
+  padding: 2rem;
+  color: white;
+  font-weight: 800;
+}
+
+legend {
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+
+.register-email {
+  padding: 1rem;
+}
+
+.register-email-label {
+  display: block;
+  text-align: left;
+  font-size: .75rem;
+  margin-bottom: .25rem;
+}
+
+.register-email-input {
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.register-password {
+  padding: 1rem;
+}
+
+.register-password-label {
+  display: block;
+  text-align: left;
+  font-size: .75rem;
+  margin-bottom: .25rem;
+}
+
+.register-password-input {
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.register-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.register-buttons-register {
+  font-size: .75rem;
+  border: none;
+  padding: .5rem;
+  border-radius: 25px;
+  width: 5rem;
+  color: white;
+  background-color: #98A8F0;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+
+.register-buttons-register:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.register-buttons-register:active {
+  transform: scale(1);
+}
+
+.register-buttons-register {
+  font-size: .75rem;
+  border: none;
+  padding: .5rem;
+  border-radius: 25px;
+  width: 5rem;
+  color: white;
+  background-color: #98A8F0;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+
+.register-buttons-register:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.register-buttons-register:active {
+  transform: scale(1);
+}
