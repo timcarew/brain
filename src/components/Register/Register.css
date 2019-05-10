@@ -1,8 +1,8 @@
 .register {
-  display: flex;
   justify-content: center;
   margin: 0 auto;
   padding: 1rem;
+  width: 20rem;
 }
 
 .register-form {
