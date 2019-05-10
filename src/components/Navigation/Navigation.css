@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   padding: .5rem;
-  background-color: #374EBB;
+  background-image: linear-gradient(to right, #374ebb, #374ccc);
+  /* background-color: #374EBB; */
 }
 
 .logo {
@@ -19,32 +20,61 @@
 
 .nav-button_signout {
   color: white;
-  background-color: #98A8F0;
+  /* background-color: #98A8F0;*/
+  border: 2px solid #98a8f0;
   font-weight: 700;
+  transition: all 0.5s ease;
+}
+
+.nav-button_signout:hover {
+  transform: scale(0.9);
+  background-color: #98a8f0;
+  cursor: pointer;
+}
+
+.nav-button_signout:active {
+  transform: scale(1);
 }
 
 .nav-button_signin {
   color: white;
-  background-color: #98A8F0;
+  /* background-color: #98A8F0; */
+  border: 2px solid #98a8f0;
   font-weight: 700;
   margin-right: .5rem;
+  transition: all 0.5s ease;
 }
+
+.nav-button_signin:hover {
+  transform: scale(0.9);
+  background-color: #98a8f0;
+  cursor: pointer;
+}
+
+.nav-button_signin:active {
+  transform: scale(1);
+}
+
 
 .nav-button_register {
   color: white;
-  background-color: #98A8F0;
+  /* background-color: #98A8F0; */
+  border: 2px solid #98a8f0;
   font-weight: 700;
+  transition: all .5s ease;
+}
+
+.nav-button_register:hover {
+  transform: scale(0.9);
+  background-color: #98a8f0;
+  cursor: pointer;
+}
+
+.nav-button_register:active {
+  transform: scale(1);
 }
 
 .nav-button-group {
   display: flex;
 }
 
-.signout:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
-.signout:active {
-  transform: scale(1);
-}
