@@ -45,21 +45,23 @@ class Register extends Component {
     return (
       <div className="register">
         <div className="register-form">
-          <legend>Register</legend>
-          <div className="register-name">
-            <label className="register-name-label">Name</label>
-            <input className="register-name-input" type="text" onChange={this.onNameChange}/>
-          </div>
-          <div className="register-email">
-            <label className="register-email-label">Email Address</label>
-            <input className="register-email-input" type="text" onChange={this.onEmailChange}/>
-          </div>
-          <div className="register-password">
-            <label className="register-password-label">Password</label>
-            <input className="register-password-input" type="password" onChange={this.onPasswordChange}/>
-          </div>
-          <div className="register-buttons">
-            <button type="submit" className="register-buttons-register" onClick={this.onSubmitRegister}>Register</button>
+          <h2 className="register-form-title">Register</h2>
+          <div className="register-form-data">
+            <div className="register-name">
+              <label className="register-name-label">Name</label>
+              <input className="register-name-input" type="text" onChange={this.onNameChange} />
+            </div>
+            <div className="register-email">
+              <label className="register-email-label">Email Address</label>
+              <input className="register-email-input" type="text" onChange={this.onEmailChange} />
+            </div>
+            <div className="register-password">
+              <label className="register-password-label">Password</label>
+              <input className="register-password-input" type="password" onChange={this.onPasswordChange} />
+            </div>
+            <div className="register-buttons">
+              <button type="submit" className="register-buttons-register" onClick={this.onSubmitRegister}>Register</button>
+            </div>
           </div>
         </div>
       </div>

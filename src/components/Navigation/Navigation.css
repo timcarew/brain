@@ -23,10 +23,11 @@
   border: 2px solid #FF9500;
   font-weight: 700;
   transition: all 0.5s ease;
+  color: #ff9500;
 }
 
 .nav-button_signout:hover {
-  transform: scale(0.9);
+  transform: scale(0.95);
   color: white;
   background-color: black;
   cursor: pointer;
@@ -41,10 +42,11 @@
   font-weight: 700;
   margin-right: .5rem;
   transition: all 0.5s ease;
+  color: #ff9500;
 }
 
 .nav-button_signin:hover {
-  transform: scale(0.9);
+  transform: scale(0.95);
   background-color: black;
   color: white;
   cursor: pointer;
@@ -59,10 +61,11 @@
   border: 2px solid #FF9500;
   font-weight: 700;
   transition: all .5s ease;
+  color: #ff9500;
 }
 
 .nav-button_register:hover {
-  transform: scale(0.9);
+  transform: scale(0.95);
   background-color: black;
   color: white;
   cursor: pointer;

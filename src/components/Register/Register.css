@@ -6,22 +6,38 @@
 }
 
 .register-form {
-  margin-top: auto;
   min-width: 25%;
-  background-color: #374EBB;
-  border-radius: 2.5rem;
+  color: black;
+  position: absolute;
+  height: 30rem;
+  width: 30rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -15rem;
+  margin-left: -15rem;
   padding: 2rem;
-  color: white;
   font-weight: 800;
+  background-image: linear-gradient(to bottom right, orange, orangered);
+  filter: drop-shadow(5px 5px 10px rgba(0,0,0,.8));
 }
 
-legend {
-  margin: .5rem;
+.register-form-data {
+  padding: 1rem;
+  text-align: center;
+}
+
+.register-form-title {
+  margin: .5rem auto;
+  padding: .5rem;
+  width: 50%;
   font-size: 1.5rem;
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 .register-name {
   padding: 1rem;
+  color: white;
 }
 
 .register-name-label {
@@ -35,12 +51,14 @@ legend {
   width: 100%;
   border: none;
   border-radius: 25px;
-  height: 1.5rem;
+  height: 2rem;
   text-align: center;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,.4));
 }
 
 .register-email {
   padding: 1rem;
+  color: white;
 }
 
 .register-email-label {
@@ -54,12 +72,14 @@ legend {
   width: 100%;
   border: none;
   border-radius: 25px;
-  height: 1.5rem;
+  height: 2rem;
   text-align: center;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,.4));
 }
 
 .register-password {
   padding: 1rem;
+  color: white;
 }
 
 .register-password-label {
@@ -73,48 +93,27 @@ legend {
   width: 100%;
   border: none;
   border-radius: 25px;
-  height: 1.5rem;
+  height: 2rem;
   text-align: center;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,.4));
 }
 
 .register-buttons {
-  display: flex;
-  justify-content: space-evenly;
   margin: 0 auto;
   padding: 1rem;
 }
 
 .register-buttons-register {
   font-size: .75rem;
+  margin: 0 auto;
   border: none;
   padding: .5rem;
   border-radius: 25px;
-  width: 5rem;
+  width: 40%;
   color: white;
-  background-color: #98A8F0;
+  background-color: rgba(255, 149, 0, 0.7);
   font-weight: 700;
-  transition: all 0.15s ease;
-}
-
-.register-buttons-register:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
-.register-buttons-register:active {
-  transform: scale(1);
-}
-
-.register-buttons-register {
-  font-size: .75rem;
-  border: none;
-  padding: .5rem;
-  border-radius: 25px;
-  width: 5rem;
-  color: white;
-  background-color: #98A8F0;
-  font-weight: 700;
-  transition: all 0.15s ease;
+  transition: all 0.3s ease;
 }
 
 .register-buttons-register:hover {
