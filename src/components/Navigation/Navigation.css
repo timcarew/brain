@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   padding: .5rem;
-  background-image: linear-gradient(to right, #374ebb, #374ccc);
-  /* background-color: #374EBB; */
+  border-bottom: 3px solid rgba(0,0,0,.8);
+  width: 75%;
+  margin: 0 auto;
 }
 
 .logo {
@@ -19,16 +20,15 @@
 }
 
 .nav-button_signout {
-  color: white;
-  /* background-color: #98A8F0;*/
-  border: 2px solid #98a8f0;
+  border: 2px solid #FF9500;
   font-weight: 700;
   transition: all 0.5s ease;
 }
 
 .nav-button_signout:hover {
   transform: scale(0.9);
-  background-color: #98a8f0;
+  color: white;
+  background-color: black;
   cursor: pointer;
 }
 
@@ -37,9 +37,7 @@
 }
 
 .nav-button_signin {
-  color: white;
-  /* background-color: #98A8F0; */
-  border: 2px solid #98a8f0;
+  border: 2px solid #FF9500;
   font-weight: 700;
   margin-right: .5rem;
   transition: all 0.5s ease;
@@ -47,7 +45,8 @@
 
 .nav-button_signin:hover {
   transform: scale(0.9);
-  background-color: #98a8f0;
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 
@@ -57,16 +56,15 @@
 
 
 .nav-button_register {
-  color: white;
-  /* background-color: #98A8F0; */
-  border: 2px solid #98a8f0;
+  border: 2px solid #FF9500;
   font-weight: 700;
   transition: all .5s ease;
 }
 
 .nav-button_register:hover {
   transform: scale(0.9);
-  background-color: #98a8f0;
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 

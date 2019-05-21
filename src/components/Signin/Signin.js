@@ -40,18 +40,20 @@ class Signin extends Component {
     return (
       <div className="signin">
         <div className="signin-form">
-          <legend>Sign In</legend>
-          <div className="signin-email">
-            <label className="signin-email-label">Email Address</label>
-            <input className="signin-email-input" type="text" onChange={this.onEmailChange} />
-          </div>
-          <div className="signin-password">
-            <label className="signin-password-label">Password</label>
-            <input className="signin-password-input" type="password" onChange={this.onPasswordChange} />
-          </div>
-          <div className="signin-buttons">
-            <button type="submit" className="signin-buttons-signin" onClick={this.onSubmitSignIn}>Sign In</button>
-            <button type="button" className="signin-buttons-register" onClick={() => onRouteChange('register')}>Register</button>
+          <h2 className="signin-title">Sign In</h2>
+          <div className="signin-form-data">
+            <div className="signin-email">
+              <label className="signin-email-label">Email Address</label>
+              <input className="signin-email-input" type="text" onChange={this.onEmailChange} />
+            </div>
+            <div className="signin-password">
+              <label className="signin-password-label">Password</label>
+              <input className="signin-password-input" type="password" onChange={this.onPasswordChange} />
+            </div>
+            <div className="signin-buttons">
+              <button type="submit" className="signin-buttons-signin" onClick={this.onSubmitSignIn}>Sign In</button>
+              <button type="button" className="signin-buttons-register" onClick={() => onRouteChange('register')}>Register</button>
+            </div>
           </div>
         </div>
       </div>

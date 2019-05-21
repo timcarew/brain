@@ -7,22 +7,38 @@
 }
 
 .signin-form {
-  margin-top: auto;
   min-width: 25%;
-  background-color: #374EBB;
-  border-radius: 2.5rem;
+  color: black;
+  position: absolute;
+  height: 25rem;
+  width: 30rem;
+  top: 50%;
+  left: 50%;
+  margin-top: -12.5rem;
+  margin-left: -15rem;
   padding: 2rem;
-  color: white;
   font-weight: 800;
+  background-image: linear-gradient(to bottom right, orange, orangered);
+  filter: drop-shadow(5px 5px 10px rgba(0,0,0,.8));
 }
 
-legend {
-  margin: .5rem;
+.signin-form-data {
+  padding: 1rem;
+  text-align: center;
+}
+
+.signin-title {
+  margin: .5rem auto;
+  padding: .5rem;
+  width: 50%;
   font-size: 1.5rem;
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 .signin-email {
   padding: 1rem;
+  color: white;
 }
 
 .signin-email-label {
@@ -36,12 +52,14 @@ legend {
   width: 100%;
   border: none;
   border-radius: 25px;
-  height: 1.5rem;
+  height: 2rem;
   text-align: center;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,.4));
 }
 
 .signin-password {
   padding: 1rem;
+  color: white;
 }
 
 .signin-password-label {
@@ -55,30 +73,32 @@ legend {
   width: 100%;
   border: none;
   border-radius: 25px;
-  height: 1.5rem;
+  height: 2rem;
   text-align: center;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,.4));
 }
 
 .signin-buttons {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 1rem;
 }
 
 .signin-buttons-signin {
   font-size: .75rem;
+  margin: 0 auto;
   border: none;
   padding: .5rem;
   border-radius: 25px;
-  width: 5rem;
+  width: 65%;
   color: white;
-  background-color: #98A8F0;
+  background-color: rgba(255, 149, 0, 0.7);
   font-weight: 700;
-  transition: all 0.15s ease;
+  transition: all 0.3s ease;
 }
 
 .signin-buttons-signin:hover {
+  background-color: rgba(255, 149, 0, 0.5);
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -88,19 +108,21 @@ legend {
 }
 
 .signin-buttons-register {
+  margin: 0 auto;
   font-size: .75rem;
   border: none;
   padding: .5rem;
   border-radius: 25px;
-  width: 5rem;
+  width: 65%;
   color: white;
-  background-color: #98A8F0;
+  background-color: rgba(255, 149, 0, 0.7);
   font-weight: 700;
-  transition: all 0.15s ease;
+  transition: all 0.3s ease;
 }
 
 .signin-buttons-register:hover {
   transform: scale(1.05);
+  background-color: rgba(255, 149, 0, 0.5);
   cursor: pointer;
 }
 
