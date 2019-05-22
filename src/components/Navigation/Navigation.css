@@ -27,7 +27,7 @@
 }
 
 .nav-button_signout:hover {
-  transform: scale(0.95);
+  transform: scale(1.05);
   color: white;
   background-color: black;
   cursor: pointer;
@@ -46,7 +46,7 @@
 }
 
 .nav-button_signin:hover {
-  transform: scale(0.95);
+  transform: scale(1.05);
   background-color: black;
   color: white;
   cursor: pointer;
@@ -65,7 +65,7 @@
 }
 
 .nav-button_register:hover {
-  transform: scale(0.95);
+  transform: scale(1.05);
   background-color: black;
   color: white;
   cursor: pointer;
